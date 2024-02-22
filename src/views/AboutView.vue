@@ -11,12 +11,14 @@
         
           <label for="name">FullName/s:</label>
           <input type="text" id="name" name="user_name">
+          <label for="name">Phone number/s:</label>
+          <input type="text" id="name" name="cell_no">
 
           <label for="text"> ID number:</label>
-          <input type="number" id="text" name="text">
+          <input type="number" id="text" name="id_number">
 
           <label for="text">Spouse ID number:</label>
-          <input type="number" id="text" name="text">
+          <input type="number" id="text" name="spouse_id_number">
         
           <label for="email">Email:</label>
           <input type="email" id="mail" name="user_email">
@@ -25,10 +27,10 @@
           <input type="text" id="text" name="text">
           
           <label for="text">Do you have any children? if yes how many?:</label>
-          <input type="text" id="text"       name="text">
+          <input type="text" id="text"       name="dependent_s">
 
           <label for="text"> Do you have an overdraft? which bank and amount?:</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="overdraft_bank">
         
           
         </fieldset>
@@ -37,28 +39,28 @@
           <legend><span class="number">2</span>Financial Information</legend>
           
           <label for="text">Client-Net Income(After tax and deductions):</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="C_net_income">
           <label for="text">Spouse-Net Income(After tax and deductions):</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="S_net_income">
           <label for="text">Other income(Net):</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="other_income">
        
           <legend><span class="number">3</span>Expenses</legend>
           
           <label for="text">Rent:</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="Rent">
           <label for="text">Water/Electricity:</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="W/E">
           <label for="text">Transport:</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="Transport">
           <label for="text">Insurances:</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="Insurance">
           <label for="text">Household Expenditure:</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="H_expenditure">
           <label for="text">Contract/Accounts:</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="Contract/accounts">
           <label for="text">Other:</label>
-          <input type="text" id="text" name="text">
+          <input type="text" id="text" name="other">
 
           
          </fieldset>
